@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +25,8 @@ public class Main {
         float rad;
         double cir, area;
          System.out.println("Enter Radius of the circle ");
-   rad = scanner.nextFloat();        while(rad <0){
+         rad = scanner.nextFloat();
+         while(rad <0){
          System.out.println("Enter Radius of the circle ");
          rad = scanner.nextFloat();
         }
@@ -50,7 +50,8 @@ public class Main {
         System.out.print("Enter the discount percentage");
         per=  scanner.nextFloat();
         while (per >100 || per < 0){
-            System.out.println("the discount range must be in 0-100,Renter the discount percentage");
+            System.out.println("the discount range must be in 0-100," +
+                                "Renter the discount percentage");
             per=  scanner.nextFloat();
         }
 
