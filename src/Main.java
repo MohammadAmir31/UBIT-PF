@@ -22,7 +22,7 @@ public class Main {
          System.out.print("you got " + perc + "%" );
 
                     //question no 2
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         float rad;
         double cir, area;
          System.out.println("Enter Radius of the circle ");
@@ -37,7 +37,7 @@ public class Main {
 
 
                         // question no 3
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         float price,dis,per;
 
         System.out.print("Enter original price ");
@@ -58,7 +58,7 @@ public class Main {
         System.out.println("The discounted price is " + dis);
 
                             // question no 4
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         float per2,dis2,price2;
 
         System.out.print("Enter discounted selling price ");
@@ -80,7 +80,7 @@ public class Main {
 
 
                        // Question no 5
-//       Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
         float volt,amp,watt;
         System.out.print("Enter voltage");
         volt = scanner.nextFloat();
@@ -90,7 +90,7 @@ public class Main {
         System.out.print("power will be " + watt + "watt");
 
                      // Question no 6
-//       Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
         float l1,l2,h,k;
         System.out.print("-------Area of a trapezoid ----------- \n");
         // for parallel line 1
@@ -121,7 +121,7 @@ public class Main {
         System.out.print("The area of the trapezoid will be: " + k);
 
                    // Question no 7
-//      Scanner scanner = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
         int num;
         System.out.print("Enter the number");
         num = scanner.nextInt();
@@ -134,7 +134,7 @@ public class Main {
         }
 
                 // Question no 8
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         float a,b,c,s,calc;
         double Area;
         // for side a
